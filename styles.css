@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #005822;
+}
+
+header {
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+
+header > h1 {
+    color: #005822;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-size: 46px;
+    padding-top: 30px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: peru;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 3px 10px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+#user-label {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+}
+
+#computer-label {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    
+}
+
+.result > p {
+    font-weight: 400px;
+    text-align: center;
+}
+
+.choices {
+    margin: 50px 0px ;
+    text-align: center;
+}
+
+.choice {
+    border: 6px solid white;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #013515;
+    transition: all 0.2s ease;
+
+}
+
+#action-message{
+    
+}
+
+.green-glow{
+    border-color: green;
+}
+
+.red-glow{
+    border-color: red;
+}
+
+.grey-glow{
+    border-color: grey;
+}
+/* dfdfdfdf */
